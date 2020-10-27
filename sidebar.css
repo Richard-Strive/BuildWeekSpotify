@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    ;
+    background-color: black;
+    color: white;
+}
+
+nav>.container>a {
+    width: 20vw;
+    height: 10vh;
+    color: black;
+    background-image: url(images/Spotify-Black-Logo.wine.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(100%);
+}
+
+nav>.container>a:hover {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+
+.sidebar a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
