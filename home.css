@@ -76,3 +76,39 @@
       background: inherit;
       border: none !important;
   }
+
+  /*
+* sidebar
+*/
+  .sidebar {
+      background-color: black;
+  }
+
+  .logo {
+      color: black;
+      ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: contain;
+
+  }
+
+  .logo>img {
+      image-rendering: contain;
+      width: 100%;
+      filter: invert(100%);
+  }
+
+  .sidebar a {
+      text-decoration: none;
+      text-decoration-color: none;
+      color: white;
+      font-size: 1rem;
+  }
+
+  .sidebar a:hover {
+      text-decoration: none;
+      text-decoration-color: none;
+      color: white;
+  }
