@@ -14,6 +14,7 @@ ul {
 }
 
 #button {
+<<<<<<< HEAD
   margin-left: 31px;
   margin-top: 50px;
   margin-left: 31px;
@@ -31,6 +32,16 @@ p.Queen.ml-3 {
 .card-img-top {
   width: 81%;
 }
+=======
+  margin-top: 20px;
+  margin-left: 31px;
+}
+
+#queen {
+  margin-left: 20px;
+}
+
+>>>>>>> 05cf91dd3ba69787109d788439ff042f8681f78b
 .card-title {
   margin-left: 15px;
 }
@@ -45,6 +56,7 @@ p.Queen.ml-3 {
   filter: grayscale(100%) sepia(100%);
 }
 
+<<<<<<< HEAD
 a {
   display: contents;
   color: currentColor;
@@ -79,4 +91,9 @@ img {
 
 li {
   padding-top: 15px;
+=======
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+>>>>>>> 05cf91dd3ba69787109d788439ff042f8681f78b
 }
