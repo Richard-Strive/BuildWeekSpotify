@@ -6,7 +6,7 @@
 
   body {
       font-family: 'Montserrat',
-          sans-serif;
+          sans-serif !important;
       ;
       background: linear-gradient(143deg, rgb(15, 68, 95) 0%, rgb(14, 41, 66) 40%, rgba(0, 0, 0, 5) 94%) no-repeat;
       background: rgb(38, 100, 103);
@@ -103,12 +103,95 @@
   .sidebar a {
       text-decoration: none;
       text-decoration-color: none;
-      color: white;
+      color: rgb(160, 160, 160);
       font-size: 1rem;
   }
 
-  .sidebar a:hover {
+  .sidebar a:hover,
+
+  .sidebar a:active {
       text-decoration: none;
       text-decoration-color: none;
       color: white;
+  }
+
+  .sideb {
+
+
+      height: 70vh !important;
+      ;
+  }
+
+  .down>.sidebutton {
+      border: 1px solid white;
+      border-radius: 2rem;
+      background-color: black;
+      color: white;
+      font-size: small;
+      text-decoration: none;
+      text-decoration-color: none;
+      width: 100%;
+
+  }
+
+  .down>.sidebutton:hover {
+      color: black;
+      background-color: white;
+
+
+  }
+
+  .up>.sidebutton {
+      border: 1px solid white;
+      border-radius: 2rem;
+      background-color: white;
+      color: black;
+      font-size: small;
+      text-decoration: none;
+      text-decoration-color: none;
+      width: 100%;
+
+  }
+
+  .up>.sidebutton:hover {
+      color: white;
+      background-color: black;
+
+  }
+
+  .sidefooter {
+      border-right: 0.5px solid grey;
+  }
+
+  /*
+* footer
+*/
+  .foot {
+      background-color: rgb(56, 56, 56);
+      border-color: 1px solid black;
+  }
+
+  .foot a {
+      font-weight: lighter;
+      color: rgb(160, 160, 160);
+      text-decoration: none;
+      text-decoration-color: none;
+  }
+
+  .foot a:hover {
+      color: white;
+  }
+
+
+  .progress {
+      border-radius: 2rem;
+      height: 0.2rem;
+      background-color: rgb(160, 160, 160) !important;
+
+  }
+
+  .progress-bar {
+      height: 1rem !important;
+      border-radius: 2rem;
+      background-color: rgb(160, 160, 160) !important;
   }
